@@ -1,0 +1,90 @@
+.sideBar {
+    display: flex;
+    flex-direction: column;
+    flex: 0.25;
+    height: 100vh;
+    background-color: #2f3135;
+
+}
+
+
+.sideBar__top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #2f3135;
+    color: rgb(223, 175, 54);
+    border-bottom: 3px solid #26282c;
+}
+
+.sidebar__channels{
+ flex: 1;
+}
+
+.sidebar__addChannel{
+    cursor: pointer;
+}
+
+.sidebar__addChannel:hover{
+    color: white;
+}
+
+.sidebar__channelsHeader{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #2f3135;
+    color: gray;
+}
+
+.sidebar__header{
+    display: flex;
+    align-items: center;
+}
+
+.sidebar__zoom, .sidebar__profile {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: gray;
+    background-color: #2f3135;
+    padding: 10px;
+    border-top: 1px solid gray;
+}
+
+.sidebar__zoomInfo{
+    flex: 1;
+    padding: 10px;
+}
+
+.sidebar__zoomIcons{
+    color: #4fb1ac;
+}
+
+.sidebar__zoomInfo > h3{
+    color: #4fb1b1;
+}
+
+.sidebar__zoomInfo > p{
+    font-size: smaller;
+}
+
+.sideBar__zoomIcons > .MuiSvgIcon-root{
+    padding: 10px;
+}
+
+.sidebar__profileInfo{
+    flex: 1;
+    padding: 10px;
+
+}
+
+.sidebar__profileInfo > h3{
+    color: white;
+}
+
+.sidebar__profileIcons > .MuiSvgIcon-root{
+    padding: 10px;
+}
